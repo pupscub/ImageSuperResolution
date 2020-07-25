@@ -7,3 +7,5 @@ Here are some links to learn more on autoencoders
 
 The pretrained weights have also been uploaded 
 if your try to fit the model without the pretrained weights it will take few hours depending on the GPU as there are over 1 million trainable parameters .
+
+Here is the link to the dataset: https://drive.google.com/drive/folders/1rvEZQxIGIBRKAjfUM1-gG22x7X53dvKL?usp=sharing
