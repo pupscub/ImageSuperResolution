@@ -80,7 +80,7 @@ def train_batches(just_load_dataset=False):
     x_train_n2 = [] # Resulting high res dataset
     x_train_down2 = [] # Resulting low res dataset
     
-    for root, dirnames, filenames in os.walk("/home/rhyme/Desktop/Project/data/cars_train"):
+    for root, dirnames, filenames in os.walk("/Desktop/Project/data/cars_train"):
         for filename in filenames:
             if re.search("\.(jpg|jpeg|JPEG|png|bmp|tiff)$", filename):
                 if batch_nb == max_batches: # If we limit the number of batches, just return earlier
